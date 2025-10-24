@@ -1,9 +1,3 @@
-Ah paham! 😎
-Kamu maksudnya pengin versi **`README.md` DataNesia** dalam **format Markdown mentahan (tanpa ada tambahan penjelasan di luar code block)** — jadi tinggal kamu **copy–paste langsung ke GitHub**, tampilannya sudah rapi dan berfungsi sempurna.
-
-Berikut versi finalnya 👇
-
----
 
 ```markdown
 # 🧠 DataNesia — Adaptive AI Dashboard Generator
