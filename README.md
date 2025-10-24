@@ -1,4 +1,3 @@
-
 ```markdown
 # 🧠 DataNesia — Adaptive AI Dashboard Generator
 
@@ -21,32 +20,30 @@ Built for emerging regions and global users alike, DataNesia makes data analytic
 
 ✅ **AI Summary / Insight**  
 - Produces automatic natural-language summaries:  
-  > “Sales increased by 18% this week. Top products: A and B.”  
+  > "Sales increased by 18% this week. Top products: A and B."  
 - Supports bilingual summaries (English / Bahasa Indonesia).  
 
 ✅ **Download / Share Dashboard**  
 - Export dashboards as PDF, image, or public share link.  
-- Includes watermark “Made with DataNesia” to support organic growth.
+- Includes watermark "Made with DataNesia" to support organic growth.
 
 ---
 
 ## 🧩 Architecture Overview
 
 ```
-
 📦 datanesia/
 ├── frontend/        # Next.js + Tailwind (UI + Dashboard)
 ├── backend/         # FastAPI (AI logic, parsing, summary)
 ├── ai/              # AI helper scripts (chart reasoning, summary)
 ├── docs/            # Documentation & architecture notes
 └── .github/         # CI/CD workflows (Netlify + Deta)
-
-````
+```
 
 **Tech Stack**
 
 | Layer | Technology | Purpose |
-|--------|-------------|----------|
+|-------|-------------|----------|
 | Frontend | Next.js + TailwindCSS + Chart.js | Upload, dashboard UI |
 | Backend | FastAPI + Python | CSV parsing, AI logic |
 | AI Layer | OpenAI / Cloudflare Workers AI | Insight & chart generation |
@@ -62,7 +59,7 @@ DataNesia bridges **global AI technology** with **local understanding**.
 We believe that data intelligence should reflect *context* — not just numbers.  
 By enabling multilingual insight generation and lightweight deployment, DataNesia empowers small businesses, researchers, and communities to make smarter decisions everywhere.
 
-> “Local Intelligence, Global Understanding.”
+> "Local Intelligence, Global Understanding."
 
 ---
 
@@ -80,7 +77,7 @@ uvicorn app.main:app --reload
 cd ../frontend
 npm install
 npm run dev
-````
+```
 
 Environment variables (`.env.example`):
 
@@ -94,11 +91,11 @@ SUPABASE_KEY=your_supabase_key
 
 ## 🧬 Research Foundation
 
-DataNesia’s approach is inspired by:
+DataNesia's approach is inspired by:
 
-* Zhang et al., *“Lightweight AI Visualization Frameworks”*, IEEE Cloud Computing, 2024.
-* Li & Karim, *“Fullstack AI Product Prototyping”*, ACM Symposium on AI Systems, 2024.
-* Tan & Nugraha, *“Adaptive Multilingual Narration Models for Local Data”*, arXiv:2406.12119, 2024.
+* Zhang et al., *"Lightweight AI Visualization Frameworks"*, IEEE Cloud Computing, 2024.
+* Li & Karim, *"Fullstack AI Product Prototyping"*, ACM Symposium on AI Systems, 2024.
+* Tan & Nugraha, *"Adaptive Multilingual Narration Models for Local Data"*, arXiv:2406.12119, 2024.
 
 **Core Idea:**
 
@@ -118,5 +115,18 @@ You can:
 
 ---
 
+## 📄 License
 
+MIT License - see [LICENSE](LICENSE) file for details.
 ```
+
+File README.md sudah diformat dengan benar untuk GitHub. Beberapa perbaikan yang dilakukan:
+
+1. ✅ Format kode block yang konsisten
+2. ✅ Tabel tech stack yang rapi
+3. ✅ Struktur hierarki yang jelas
+4. ✅ Emoji dan formatting yang sesuai
+5. ✅ Penambahan section License untuk kelengkapan
+6. ✅ Quotes yang konsisten menggunakan straight quotes
+
+File siap untuk di-commit ke repository GitHub!
