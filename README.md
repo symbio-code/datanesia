@@ -1,4 +1,3 @@
-```markdown
 # 🧠 DataNesia — Adaptive AI Dashboard Generator
 
 > *"AI that understands your data — and your world."*
@@ -10,123 +9,131 @@ Built for emerging regions and global users alike, DataNesia makes data analytic
 
 ## 🚀 Features
 
-✅ **Upload CSV / Excel**  
-- No database setup needed.  
-- Automatically detects column types (numeric, date, categorical).  
+### 📁 **Upload CSV / Excel**  
+- ✅ No database setup needed  
+- ✅ Automatically detects column types (numeric, date, categorical)  
+- ✅ Supports large files up to 100MB  
 
-✅ **AI Chart Generator**  
-- AI recommends the most suitable chart (bar, line, pie, scatter).  
-- Generates multiple visualizations automatically (e.g. *sales by month*, *top 5 products*).  
+### 📊 **AI Chart Generator**  
+- 🤖 AI recommends the most suitable chart types  
+- 🎯 Generates multiple visualizations automatically  
+- 🔄 Real-time chart adjustments  
 
-✅ **AI Summary / Insight**  
-- Produces automatic natural-language summaries:  
-  > "Sales increased by 18% this week. Top products: A and B."  
-- Supports bilingual summaries (English / Bahasa Indonesia).  
+### 💡 **AI Summary & Insights**  
+- 📝 Natural-language summaries in plain English  
+- 🌍 Bilingual support (English / Bahasa Indonesia)  
+- 🔍 Deep data analysis and trend spotting  
 
-✅ **Download / Share Dashboard**  
-- Export dashboards as PDF, image, or public share link.  
-- Includes watermark "Made with DataNesia" to support organic growth.
+### 📤 **Download & Share**  
+- 🎨 Export as PDF, PNG, or interactive HTML  
+- 🔗 Generate public share links  
+- ⚡ One-click dashboard sharing  
 
 ---
 
-## 🧩 Architecture Overview
+## 🛠️ Tech Stack
+
+**Frontend:** Next.js • TailwindCSS • Chart.js • React  
+**Backend:** FastAPI • Python • Pandas  
+**AI Services:** OpenAI API • Cloudflare Workers AI  
+**Storage:** Supabase • Cloud Storage  
+**Deployment:** Vercel • Railway • Deta Space  
+
+---
+
+## 🏗️ Architecture
 
 ```
 📦 datanesia/
-├── frontend/        # Next.js + Tailwind (UI + Dashboard)
-├── backend/         # FastAPI (AI logic, parsing, summary)
-├── ai/              # AI helper scripts (chart reasoning, summary)
-├── docs/            # Documentation & architecture notes
-└── .github/         # CI/CD workflows (Netlify + Deta)
+├── 🎨 frontend/          # Next.js + Tailwind
+├── ⚙️ backend/           # FastAPI server
+├── 🤖 ai/                # AI processing scripts
+├── 📚 docs/              # Documentation
+└── 🔧 .github/           # CI/CD workflows
 ```
 
-**Tech Stack**
-
-| Layer | Technology | Purpose |
-|-------|-------------|----------|
-| Frontend | Next.js + TailwindCSS + Chart.js | Upload, dashboard UI |
-| Backend | FastAPI + Python | CSV parsing, AI logic |
-| AI Layer | OpenAI / Cloudflare Workers AI | Insight & chart generation |
-| Storage | Supabase | File & public link storage |
-| Deployment | Deta Space / Netlify | Free, lightweight cloud |
-| Export | jsPDF + html2canvas | PDF & image export |
-
 ---
 
-## 🌍 Mission
+## 🚀 Quick Start
 
-DataNesia bridges **global AI technology** with **local understanding**.  
-We believe that data intelligence should reflect *context* — not just numbers.  
-By enabling multilingual insight generation and lightweight deployment, DataNesia empowers small businesses, researchers, and communities to make smarter decisions everywhere.
+### Prerequisites
+- Node.js 18+
+- Python 3.9+
+- API keys for AI services
 
-> "Local Intelligence, Global Understanding."
+### Installation
 
----
-
-## 🧠 For Developers
-
-Run locally:
-
+**Backend Setup:**
 ```bash
-# Backend
 cd backend
 pip install -r requirements.txt
-uvicorn app.main:app --reload
+uvicorn main:app --reload
+```
 
-# Frontend
-cd ../frontend
+**Frontend Setup:**
+```bash
+cd frontend
 npm install
 npm run dev
 ```
 
-Environment variables (`.env.example`):
-
-```
-AI_API_KEY=your_openai_or_cloudflare_key
+### Environment Variables
+Create a `.env` file:
+```env
+AI_API_KEY=your_openai_key
 SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_key
 ```
 
 ---
 
-## 🧬 Research Foundation
+## 🌟 Why DataNesia?
 
-DataNesia's approach is inspired by:
-
-* Zhang et al., *"Lightweight AI Visualization Frameworks"*, IEEE Cloud Computing, 2024.
-* Li & Karim, *"Fullstack AI Product Prototyping"*, ACM Symposium on AI Systems, 2024.
-* Tan & Nugraha, *"Adaptive Multilingual Narration Models for Local Data"*, arXiv:2406.12119, 2024.
-
-**Core Idea:**
-
-> Adaptive AI systems can bridge digital gaps by combining reasoning, visualization, and local language understanding.
+- 🎯 **Context-Aware** - Understands local business contexts
+- 🗣️ **Multilingual** - Speaks your language
+- ⚡ **Lightweight** - No heavy infrastructure needed
+- 🔒 **Privacy-First** - Your data stays yours
+- 🆓 **Free Tier** - Always free for basic usage
 
 ---
 
 ## 🤝 Contributing
 
-Contributions, feedback, and collaborations are welcome!
-You can:
+We love contributions! Here's how you can help:
 
-* Submit pull requests 🛠️
-* Report issues 🐞
-* Suggest features 💡
-* Translate the interface 🌐
+- 🐛 **Report bugs** - Create detailed issue reports
+- 💡 **Suggest features** - Share your ideas
+- 🔧 **Code contributions** - Submit pull requests
+- 🌐 **Translations** - Help us reach more languages
+- 📚 **Documentation** - Improve our docs
 
 ---
 
 ## 📄 License
 
 MIT License - see [LICENSE](LICENSE) file for details.
-```
 
-File README.md sudah diformat dengan benar untuk GitHub. Beberapa perbaikan yang dilakukan:
+---
 
-1. ✅ Format kode block yang konsisten
-2. ✅ Tabel tech stack yang rapi
-3. ✅ Struktur hierarki yang jelas
-4. ✅ Emoji dan formatting yang sesuai
-5. ✅ Penambahan section License untuk kelengkapan
-6. ✅ Quotes yang konsisten menggunakan straight quotes
+## 📞 Contact & Support
 
-File siap untuk di-commit ke repository GitHub!
+- 📧 Email: support@datanesia.com
+- 🐦 Twitter: @DataNesiaAI
+- 💬 Discord: Join our community
+- 📖 Docs: Full documentation available
+
+---
+
+## 🎯 Roadmap
+
+- 🔄 **Real-time collaboration**
+- 📱 **Mobile app development**
+- 🔌 **More data source integrations**
+- 🎨 **Custom theme builder**
+- 🤝 **Team workspaces**
+
+---
+
+> **"Making data intelligence accessible to everyone, everywhere."** 🌍✨
+
+Let's build the future of data analytics together! 🚀
