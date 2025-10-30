@@ -1,40 +1,15 @@
-# ===============================================
-# 📦 DataNesia Backend Requirements (Python 3.12)
-# ===============================================
-
-# --- Web Framework ---
-fastapi==0.115.0
-uvicorn==0.30.1
-
-# --- Data Processing ---
-pandas==2.2.3
-numpy==1.26.4
-scikit-learn==1.5.1
-
-# --- Visualization & Auto Chart Generation ---
-matplotlib==3.9.2
-lux-api==0.5.1
-autoviz==0.1.905   # updated for Python 3.12 compatibility
-
-# --- AI Summary Engine (Local Reasoning) ---
-pandasai==2.3.0
-ydata-profiling==4.8.3
-
-# --- Database & Config ---
-tinydb==4.8.0
-python-dotenv==1.0.1
-supabase==2.3.2
-
-# --- Optional Fallback AI (Cloud Reasoning) ---
-openai==1.43.0
-
-# --- HTTP & API Calls ---
-requests==2.32.3
-
-# --- File Handling / Excel ---
-openpyxl==3.1.5
-
-# --- Deployment Helpers ---
-gunicorn==21.2.0
-python-dotenv==1.0.1
-supabase==2.3.2
+fastapi
+uvicorn[standard]
+supabase
+python-dotenv
+pandas
+numpy
+matplotlib
+lux-api
+pandasai
+ydata-profiling
+openai
+requests
+python-multipart
+tinydb
+gunicorn
