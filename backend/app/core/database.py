@@ -1,12 +1,13 @@
 from app.core.config import supabase
-from tinydb import TinyDB, Query
+
 import os
 
 # TinyDB local (optional) — keep small cache
-db_path = os.path.join(os.getcwd(), "data_summary.json")
-tinydb = TinyDB(db_path)
 
-User = Query()
+# TinyDB optional (disabled for now)
+tinydb = None
+User = None
+
 
 # Supabase helpers
 def get_user(email: str):
